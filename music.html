@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Música - Tu Nombre</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">O</div>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../blog/index.html">Blog</a></li>
+                    <li><a href="index.html">Música</a></li>
+                    <li><a href="../photos/index.html">Fotos</a></li>
+                    <li><a href="../about.html">Acerca de</a></li>
+                    <li><a href="../rss.xml">RSS Feed</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <div class="theme-toggle">
+                <button id="auto-theme"><i class="fas fa-circle"></i> Auto</button>
+                <button id="light-theme"><i class="fas fa-sun"></i> Light</button>
+                <button id="dark-theme"><i class="fas fa-moon"></i> Dark</button>
+            </div>
+
+            <h1>Música</h1>
+            <p>Una selección de música que disfruto y recomiendo.</p>
+            
+            <div class="music-grid">
+                <div class="music-item">
+                    <h3>Playlist favorita</h3>
+                    <div class="spotify-embed">
+                        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+                
+                <div class="music-item">
+                    <h3>Álbum recomendado</h3>
+                    <div class="spotify-embed">
+                        <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+                
+                <div class="music-item">
+                    <h3>Canción actual</h3>
+                    <div class="spotify-embed">
+                        <iframe src="https://open.spotify.com/embed/track/4cOdK2wGLETKBW3PvgPWqT" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-line"></div>
+                <div class="footer-logo">O</div>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('dark-theme').classList.add('active');
+    </script>
+</body>
+</html>
