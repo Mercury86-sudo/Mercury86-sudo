@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Nombre</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome para íconos de tema -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">O</div>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="blog/index.html">Blog</a></li>
+                    <li><a href="music/index.html">Música</a></li>
+                    <li><a href="photos/index.html">Fotos</a></li>
+                    <li><a href="about.html">Acerca de</a></li>
+                    <li><a href="rss.xml">RSS Feed</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <div class="theme-toggle">
+                <button id="auto-theme"><i class="fas fa-circle"></i> Auto</button>
+                <button id="light-theme"><i class="fas fa-sun"></i> Light</button>
+                <button id="dark-theme"><i class="fas fa-moon"></i> Dark</button>
+            </div>
+
+            <h1>Este es el sitio web de <span class="name">Tu Nombre</span>. Escribo sobre matemáticas, lingüística, música, informática y más.</h1>
+            
+            <div class="intro-text">
+                <p>Para más información sobre mí, visita la página <a href="about.html">Acerca de</a>.</p>
+            </div>
+            
+            <h2>Entradas recientes</h2>
+            <div class="recent-posts">
+                <ul>
+                    <li><a href="blog/entrada1.html">Título de la primera entrada del blog</a></li>
+                    <li><a href="blog/entrada2.html">Título de la segunda entrada del blog</a></li>
+                    <li><a href="blog/entrada3.html">Título de la tercera entrada del blog</a></li>
+                </ul>
+            </div>
+
+            <footer>
+                <div class="footer-line"></div>
+                <div class="footer-logo">O</div>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        // Script simple para el cambio de tema (opcional)
+        document.getElementById('dark-theme').classList.add('active');
+        
+        // Puedes expandir esta funcionalidad si deseas implementar realmente
+        // el cambio de tema claro/oscuro
+    </script>
+</body>
+</html>
