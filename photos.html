@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos - Tu Nombre</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">O</div>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../blog/index.html">Blog</a></li>
+                    <li><a href="../music/index.html">Música</a></li>
+                    <li><a href="index.html">Fotos</a></li>
+                    <li><a href="../about.html">Acerca de</a></li>
+                    <li><a href="../rss.xml">RSS Feed</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <div class="theme-toggle">
+                <button id="auto-theme"><i class="fas fa-circle"></i> Auto</button>
+                <button id="light-theme"><i class="fas fa-sun"></i> Light</button>
+                <button id="dark-theme"><i class="fas fa-moon"></i> Dark</button>
+            </div>
+
+            <h1>Galería de Fotos</h1>
+            <p>Una colección de fotografías personales.</p>
+            
+            <div class="gallery">
+                <div class="gallery-item">
+                    <a href="img/foto1-large.jpg" data-lightbox="gallery" data-title="Descripción de la foto 1">
+                        <img src="img/foto1-thumb.jpg" alt="Descripción de la foto">
+                    </a>
+                </div>
+                
+                <div class="gallery-item">
+                    <a href="img/foto2-large.jpg" data-lightbox="gallery" data-title="Descripción de la foto 2">
+                        <img src="img/foto2-thumb.jpg" alt="Descripción de la foto">
+                    </a>
+                </div>
+                
+                <div class="gallery-item">
+                    <a href="img/foto3-large.jpg" data-lightbox="gallery" data-title="Descripción de la foto 3">
+                        <img src="img/foto3-thumb.jpg" alt="Descripción de la foto">
+                    </a>
+                </div>
+                
+                <div class="gallery-item">
+                    <a href="img/foto4-large.jpg" data-lightbox="gallery" data-title="Descripción de la foto 4">
+                        <img src="img/foto4-thumb.jpg" alt="Descripción de la foto">
+                    </a>
+                </div>
+                
+                <div class="gallery-item">
+                    <a href="img/foto5-large.jpg" data-lightbox="gallery" data-title="Descripción de la foto 5">
+                        <img src="img/foto5-thumb.jpg" alt="Descripción de la foto">
+                    </a>
+                </div>
+                
+                <div class="gallery-item">
+                    <a href="img/foto6-large.jpg" data-lightbox="gallery" data-title="Descripción de la foto 6">
+                        <img src="img/foto6-thumb.jpg" alt="Descripción de la foto">
+                    </a>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-line"></div>
+                <div class="footer-logo">O</div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+    <script>
+        document.getElementById('dark-theme').classList.add('active');
+    </script>
+</body>
+</html>
