@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Tu Nombre</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">O</div>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="index.html">Blog</a></li>
+                    <li><a href="../music/index.html">Música</a></li>
+                    <li><a href="../photos/index.html">Fotos</a></li>
+                    <li><a href="../about.html">Acerca de</a></li>
+                    <li><a href="../rss.xml">RSS Feed</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <div class="theme-toggle">
+                <button id="auto-theme"><i class="fas fa-circle"></i> Auto</button>
+                <button id="light-theme"><i class="fas fa-sun"></i> Light</button>
+                <button id="dark-theme"><i class="fas fa-moon"></i> Dark</button>
+            </div>
+
+            <h1>Blog</h1>
+            
+            <div class="blog-posts">
+                <article class="blog-post">
+                    <h2>Título de la primera entrada del blog</h2>
+                    <div class="post-meta">21 de abril de 2025</div>
+                    <div class="post-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae justo vel purus sollicitudin tincidunt. Vivamus auctor, neque vel tincidunt faucibus, neque nisi tincidunt risus, vel luctus risus magna vel mauris.</p>
+                        <p>Praesent vitae ipsum vel dolor convallis posuere. Vivamus vitae justo vel libero pulvinar tincidunt. Sed non bibendum ipsum. Aliquam erat volutpat. Donec auctor, neque vel tincidunt faucibus, neque nisi tincidunt risus.</p>
+                        <p>Continuar leyendo <a href="entrada1.html">aquí</a>.</p>
+                    </div>
+                </article>
+                
+                <article class="blog-post">
+                    <h2>Título de la segunda entrada del blog</h2>
+                    <div class="post-meta">15 de abril de 2025</div>
+                    <div class="post-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae justo vel purus sollicitudin tincidunt. Vivamus auctor, neque vel tincidunt faucibus, neque nisi tincidunt risus, vel luctus risus magna vel mauris.</p>
+                        <p>Continuar leyendo <a href="entrada2.html">aquí</a>.</p>
+                    </div>
+                </article>
+                
+                <article class="blog-post">
+                    <h2>Título de la tercera entrada del blog</h2>
+                    <div class="post-meta">5 de abril de 2025</div>
+                    <div class="post-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae justo vel purus sollicitudin tincidunt. Vivamus auctor, neque vel tincidunt faucibus, neque nisi tincidunt risus, vel luctus risus magna vel mauris.</p>
+                        <p>Continuar leyendo <a href="entrada3.html">aquí</a>.</p>
+                    </div>
+                </article>
+            </div>
+
+            <footer>
+                <div class="footer-line"></div>
+                <div class="footer-logo">O</div>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('dark-theme').classList.add('active');
+    </script>
+</body>
+</html>
